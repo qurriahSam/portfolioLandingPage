@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+
+body {
+  height: 300vh;
+}
+
+.navbar {
+  background-color: black;
+}
+
+.navbar-brand {
+  font-family: "Cookie", cursive;
+  font-size: 3em;
+}
+
+.navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #e09a16;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #a169009d;
+  font-weight: 500;
+  font-size: 1em;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #e09a16;
+}
