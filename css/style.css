@@ -40,3 +40,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.banner .container {
+  padding-top: 15vh;
+  color: rgb(202, 202, 202);
+}
