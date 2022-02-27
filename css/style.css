@@ -81,5 +81,58 @@ body {
 
 .education {
   background-image: linear-gradient(90deg, #f1e9da 50%, var(--bs-primary-color) 50%);
-  height: 100vh;
+}
+
+.timeline {
+  position: relative;
+  margin-top: 10vh;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  background: #000;
+}
+
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  box-sizing: border-box;
+}
+
+.timeline ul li:nth-child(odd) {
+  float: left;
+  text-align: right;
+  clear: both;
+}
+
+.timeline ul li:nth-child(even) {
+  float: right;
+  text-align: left;
+  clear: both;
+}
+
+.content-left {
+  background-color: var(--bs-primary-color);
+  padding: 5%;
+  border: 1px solid #bb8831;
+  border-radius: 20px 0 20px 20px;
+}
+
+.content-right {
+  background-color: #f1e9da;
+  padding: 5%;
+  border: 1px solid #c5b79d;
+  border-radius: 0 20px 20px 20px;
 }
