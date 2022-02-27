@@ -192,3 +192,12 @@ body {
 .clear {
   clear: both;
 }
+
+.projects {
+  background-color: var(--bs-primary-color);
+  height: 100vh;
+}
+
+.projects h2::first-letter {
+  color: #ffeece;
+}
