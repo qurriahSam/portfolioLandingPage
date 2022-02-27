@@ -106,8 +106,8 @@ body {
   list-style: none;
   position: relative;
   width: 50%;
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
   box-sizing: border-box;
 }
 
@@ -128,6 +128,7 @@ body {
   padding: 5%;
   border: 1px solid #bb8831;
   border-radius: 20px 0 20px 20px;
+  margin-bottom: 8vh;
 }
 
 .content-right {
@@ -135,4 +136,51 @@ body {
   padding: 5%;
   border: 1px solid #c5b79d;
   border-radius: 0 20px 20px 20px;
+  margin-bottom: 8vh;
+}
+
+.timeline ul li:nth-child(odd)::before {
+  content: "";
+  position: absolute;
+  right: -11px;
+  width: 20px;
+  height: 20px;
+  background: var(--bs-primary-color);
+  border-radius: 50%;
+  box-shadow: 5px 4px 5px #888888;
+}
+
+.timeline ul li:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  width: 20px;
+  height: 20px;
+  background: var(--bs-primary-color);
+  border-radius: 50%;
+  box-shadow: 5px 4px 5px #888888;
+}
+
+.timeline ul li p {
+  margin: 0;
+}
+
+.timeline ul li:nth-child(odd) .time {
+  position: absolute;
+  top: -13px;
+  right: -133px;
+  padding: 8px 16px;
+  background: #393020;
+  color: #c5b79d;
+  border-radius: 18px;
+}
+
+.timeline ul li:nth-child(even) .time {
+  position: absolute;
+  top: -9px;
+  left: -133px;
+  padding: 8px 16px;
+  background: #393020;
+  color: #c5b79d;
+  border-radius: 18px;
 }
