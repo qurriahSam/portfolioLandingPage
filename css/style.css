@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&display=swap");
 
 :root {
-  --bs-primary-color: #d69b32;
+  --bs-primary-color: #f5a721;
   --bs-primary-color-dark: #865f1a;
   --bs-text-color: #393020;
 }
@@ -71,9 +71,15 @@ body {
   font-weight: 600;
   font-size: 2.5em;
   text-align: center;
+  padding: 0.5em;
 }
 
 .titles::first-letter {
   font-size: 1.5em;
   color: var(--bs-primary-color);
+}
+
+.education {
+  background-image: linear-gradient(90deg, #f1e9da 50%, var(--bs-primary-color) 50%);
+  height: 100vh;
 }
