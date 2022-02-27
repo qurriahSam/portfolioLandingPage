@@ -50,7 +50,7 @@ body {
   width: 30vw;
 }
 
-.banner .contacts {
+.banner .contacts p:first-child {
   font-family: "Anton", sans-serif;
 }
 
