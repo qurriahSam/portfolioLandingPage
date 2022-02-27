@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&display=swap");
 
 body {
   height: 300vh;
@@ -48,4 +48,12 @@ body {
 
 .banner img {
   width: 30vw;
+}
+
+.banner .contacts {
+  font-family: "Anton", sans-serif;
+}
+
+.icons a i:hover {
+  color: #e09a16 !important;
 }
