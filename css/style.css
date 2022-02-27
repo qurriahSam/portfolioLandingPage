@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Cookie&display=swap");
 
+:root {
+  --bs-primary-color: #d69b32;
+  --bs-primary-color-dark: #865f1a;
+  --bs-text-color: #393020;
+}
+
 body {
   height: 300vh;
+  background-color: #e9d2a6;
+  color: var(--bs-text-color);
 }
 
 .navbar {
@@ -19,7 +27,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #e09a16;
+  color: var(--bs-primary-color);
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -29,7 +37,7 @@ body {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #e09a16;
+  color: var(--bs-primary-color);
 }
 
 .banner {
@@ -39,6 +47,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .banner .container:first-child {
@@ -55,5 +64,16 @@ body {
 }
 
 .icons a i:hover {
-  color: #e09a16 !important;
+  color: var(--bs-primary-color) !important;
+}
+
+.titles {
+  font-weight: 600;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.titles::first-letter {
+  font-size: 1.5em;
+  color: var(--bs-primary-color);
 }
