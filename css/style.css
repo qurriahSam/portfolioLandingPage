@@ -195,9 +195,26 @@ body {
 
 .projects {
   background-color: var(--bs-primary-color);
-  height: 100vh;
 }
 
 .projects h2::first-letter {
   color: #ffeece;
+}
+
+.carousel-caption {
+  background-color: red;
+  padding-top: 20%;
+  padding-bottom: 0;
+  top: 0;
+  bottom: 0;
+  animation: fade-in 3s linear 0s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
