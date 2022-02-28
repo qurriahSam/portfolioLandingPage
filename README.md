@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a sample quiz website for showcasing HTML CSS JS & Bootstrap.
+This is a sample portfolio website for showcasing HTML CSS JS & Bootstrap.
 
 ### Screenshot
 
