@@ -7,6 +7,7 @@
 }
 
 body {
+  position: relative;
   height: 300vh;
   background-color: #e9d2a6;
   color: var(--bs-text-color);
@@ -202,12 +203,18 @@ body {
 }
 
 .carousel-caption {
-  background-color: red;
-  padding-top: 20%;
+  opacity: 0;
+}
+
+.text-fade-in {
+  background-color: rgba(0, 0, 0, 0.644);
+  padding-top: 3%;
   padding-bottom: 0;
-  top: 0;
+  width: 50%;
+  top: 60%;
+  left: 25%;
   bottom: 0;
-  animation: fade-in 3s linear 0s forwards;
+  animation: fade-in 3s linear 2s forwards;
 }
 
 @keyframes fade-in {
@@ -217,4 +224,9 @@ body {
   to {
     opacity: 1;
   }
+}
+
+.carousel-control-next:hover,
+.carousel-control-prev:hover {
+  background-color: rgba(0, 0, 0, 0.089);
 }
