@@ -14,7 +14,7 @@ This is a sample portfolio website for showcasing HTML CSS JS & Bootstrap.
 
 ### Screenshot
 
-![Website screenshot](./assets/portWeb.png)
+![Website screenshot](./assets/ScreenshotPort.png)
 
 ### Requirements
 
