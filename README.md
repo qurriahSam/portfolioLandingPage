@@ -36,7 +36,7 @@ This is a sample portfolio website for showcasing HTML CSS JS & Bootstrap.
 
 ### Links
 
-- Live Site URL: [Quiz App](https://qurriahsam.github.io/quizBoard/)
+- Live Site URL: [Portfolio](https://qurriahsam.github.io/portfolioLandingPage/)
 
 - Figma Design Link: [Figma](https://www.figma.com/file/rDXDFBQRNPS02SeRFbaULh/portfolio?node-id=0%3A1)
 
