@@ -180,6 +180,14 @@ body {
   border-radius: 18px;
 }
 
+.sept {
+  right: -287px !important;
+}
+
+.jan {
+  right: -232px !important;
+}
+
 .timeline ul li:nth-child(even) .time {
   position: absolute;
   top: -9px;
