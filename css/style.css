@@ -14,8 +14,8 @@ body {
 }
 
 .navbar {
-  background-image: linear-gradient(#000, rgba(0, 0, 0, 0.856));
-  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.329);
+  background-image: linear-gradient(#000, rgba(0, 0, 0, 0.575));
+  box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.603);
 }
 
 .navbar-brand {
@@ -39,6 +39,10 @@ body {
 
 .navbar-dark .navbar-nav .nav-link:hover {
   color: var(--bs-primary-color);
+}
+
+.solid-scroll {
+  background-image: linear-gradient(#000, rgb(0, 0, 0));
 }
 
 .banner {
