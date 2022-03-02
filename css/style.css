@@ -308,12 +308,18 @@ body {
   }
 
   .text-fade-in {
+    padding-top: 10vw;
     width: 100%;
     top: 0%;
     left: 0;
     bottom: 0;
   }
+}
 
+@media screen and (max-width: 412px) {
+  .text-fade-in {
+    padding-top: 5vw;
+  }
   .text-fade-in p {
     margin-bottom: 4px;
   }
