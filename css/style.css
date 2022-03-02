@@ -260,6 +260,10 @@ body {
   background-color: rgba(0, 0, 0, 0.089);
 }
 
+.career-block {
+  display: block;
+}
+
 @media screen and (max-width: 769px) {
   .timeline::before {
     left: 0;
@@ -300,8 +304,5 @@ body {
   .projects .container {
     max-width: 100vw;
     padding: 5px !important;
-  }
-  .career-block {
-    display: block;
   }
 }
