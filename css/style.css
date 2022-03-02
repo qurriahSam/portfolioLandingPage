@@ -316,7 +316,7 @@ body {
   }
 }
 
-@media screen and (max-width: 412px) {
+@media screen and (max-width: 439px) {
   .text-fade-in {
     padding-top: 5vw;
   }
