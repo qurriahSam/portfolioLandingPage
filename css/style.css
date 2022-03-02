@@ -63,6 +63,25 @@ body {
   width: 30vw;
 }
 
+.career {
+  position: relative;
+}
+
+.career::after {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 2px;
+  background-color: #fff;
+  animation: blinker 0.8s ease infinite;
+}
+
+@keyframes blinker {
+  to {
+    opacity: 0;
+  }
+}
+
 .container .contacts {
   font-family: "Anton", sans-serif;
 }
@@ -281,5 +300,8 @@ body {
   .projects .container {
     max-width: 100vw;
     padding: 5px !important;
+  }
+  .career-block {
+    display: block;
   }
 }
