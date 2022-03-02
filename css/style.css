@@ -306,4 +306,15 @@ body {
     padding: 5px !important;
     padding-bottom: 6vh !important;
   }
+
+  .text-fade-in {
+    width: 100%;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+  }
+
+  .text-fade-in p {
+    margin-bottom: 4px;
+  }
 }
