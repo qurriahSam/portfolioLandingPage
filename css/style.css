@@ -103,7 +103,7 @@ body {
 }
 
 .education {
-  background-image: linear-gradient(90deg, #f1e9da 50%, var(--bs-primary-color) 50%);
+  background-image: linear-gradient(90deg, #e9d2b8 50%, var(--bs-primary-color) 50%);
 }
 
 .education .container {
@@ -323,4 +323,15 @@ body {
   .text-fade-in p {
     margin-bottom: 4px;
   }
+}
+
+::-webkit-scrollbar {
+  width: 0.45rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--bs-text-color);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
 }

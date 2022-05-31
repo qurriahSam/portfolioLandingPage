@@ -7,10 +7,10 @@ document.addEventListener("scroll", () => {
 // typing effect on career
 let names = [
   "Software Developer",
-  "UI/UX Designer",
-  "Web Developer",
-  "Software Engineer",
   "Programmer",
+  "UI/UX Developer",
+  "Software Engineer",
+  "Web Developer",
 ];
 let inputArea = document.querySelector(".career");
 let counter = 0;
