@@ -10,7 +10,7 @@
 
 ## Description
 
-This is a sample portfolio website for showcasing HTML CSS JS & Bootstrap.
+This portfolio website provides a showcase for HTML, CSS, JS, and Bootstrap technologies, offering a visually stunning and informative platform for displaying information about its creator. With its intuitive and easy-to-navigate design, the website presents a range of impressive features and examples of its creator's skills, including projects, accomplishments, and professional experience.
 
 ### Screenshot
 
